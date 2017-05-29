@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NetworkBase_Example' do
+  pod 'NetworkBase', :path => '../'
+
+  target 'NetworkBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
