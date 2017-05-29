@@ -1,0 +1,6 @@
+framework module NetworkBase {
+  umbrella header "NetworkBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

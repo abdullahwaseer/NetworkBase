@@ -1,0 +1,16 @@
+PODS:
+  - NetworkBase (0.1.0)
+
+DEPENDENCIES:
+  - NetworkBase (from `../`)
+
+EXTERNAL SOURCES:
+  NetworkBase:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NetworkBase: 50d3d31ac98e28f98d2522ab7be4f630b420cb4c
+
+PODFILE CHECKSUM: f4bfdb44fa2ead19620853529b6b38676e57689f
+
+COCOAPODS: 1.2.1
