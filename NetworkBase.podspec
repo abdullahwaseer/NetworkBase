@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NetworkBase'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'NetworkManagerBase is an abstract platform for writing API requests and parsers.'
 
 # This description is used to generate tags and improve search results.

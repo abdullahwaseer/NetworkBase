@@ -16,6 +16,10 @@ enum RequestType : Int {
 
 open class RequestBase {
     
+    public init () {
+        
+    }
+    
     /// host server base url
     ///
     /// - Returns: string

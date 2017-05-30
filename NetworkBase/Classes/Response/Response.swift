@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum ResponseType : Int {
+public enum ResponseType : Int {
     case Success
     case Failure
 }

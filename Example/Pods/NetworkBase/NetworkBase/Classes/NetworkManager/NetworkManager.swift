@@ -11,6 +11,10 @@ import Alamofire
 
 open class  NetworkManager {
     
+    public init () {
+        
+    }
+    
     func executeRequest(request : RequestBase,
                         completionHandler:@escaping (_ apiResponse:Response)->Void) {
         

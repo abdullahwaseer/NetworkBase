@@ -9,7 +9,7 @@
 import Foundation
 //import Alamofire
 
-enum RequestType : Int {
+public enum RequestType : Int {
     case GET
     case POST
 }

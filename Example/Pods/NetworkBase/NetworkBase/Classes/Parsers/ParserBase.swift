@@ -10,6 +10,10 @@ import Foundation
 
 open class ParserBase {
     
+    public init () {
+        
+    }
+    
     func parseData(data : [String : Any])->AnyObject? {
         return "" as AnyObject?
     }
