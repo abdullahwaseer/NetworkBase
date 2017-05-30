@@ -1,7 +1,9 @@
+platform :ios, '9.0'
+
 use_frameworks!
 
 target 'NetworkBase_Example' do
-  pod 'NetworkBase', :path => '../'
+  pod 'NetworkBase', '~> 0.1.0'
 
   target 'NetworkBase_Tests' do
     inherit! :search_paths

@@ -1,16 +1,15 @@
 PODS:
-  - NetworkBase (0.1.0)
+  - Alamofire (4.0.1)
+  - NetworkBase (0.1.0):
+    - Alamofire (~> 4.0.1)
 
 DEPENDENCIES:
-  - NetworkBase (from `../`)
-
-EXTERNAL SOURCES:
-  NetworkBase:
-    :path: ../
+  - NetworkBase (~> 0.1.0)
 
 SPEC CHECKSUMS:
-  NetworkBase: 50d3d31ac98e28f98d2522ab7be4f630b420cb4c
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  NetworkBase: 299d4774ae5ab1d315b493d2af56db248d79fbb6
 
-PODFILE CHECKSUM: f4bfdb44fa2ead19620853529b6b38676e57689f
+PODFILE CHECKSUM: 11266bb05d1bd05d6b4b9cc2818b2d8f71f311f5
 
 COCOAPODS: 1.2.1

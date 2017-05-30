@@ -1,9 +1,9 @@
 {
   "name": "NetworkBase",
   "version": "0.1.0",
-  "summary": "A short description of NetworkBase.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/abdullah.waseer@gmail.com/NetworkBase",
+  "summary": "NetworkManagerBase is an abstract platform for writing API requests and parsers.",
+  "description": "TODO: NetworkManagerBase is an abstract platform for writing API requests for certain entities and API response parsers that are going to parse API response data.",
+  "homepage": "https://github.com/abdullahwaseer/NetworkBase",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "abdullah.waseer@gmail.com": "abdullah@mailcohen.com"
   },
   "source": {
-    "git": "https://github.com/abdullah.waseer@gmail.com/NetworkBase.git",
+    "git": "https://github.com/abdullahwaseer/NetworkBase.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "NetworkBase/Classes/**/*"
+  "source_files": "NetworkBase/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.0.1"
+    ]
+  }
 }
