@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NetworkBase'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'NetworkManagerBase is an abstract platform for writing API requests and parsers.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: NetworkManagerBase is an abstract platform for writing API requests for ce
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'NetworkBase/Classes/NetworkManager/**/*','NetworkBase/Classes/Parsers/**/*','NetworkBase/Classes/Requests/**/*','NetworkBase/Classes/Response/**/*'
+  s.source_files = 'NetworkBase/Classes/NetworkManager/**/*.{swift}','NetworkBase/Classes/Parsers/**/*.{swift}','NetworkBase/Classes/Requests/**/*.{swift}','NetworkBase/Classes/Response/**/*.{swift}'
   
   # s.resource_bundles = {
   #   'NetworkBase' => ['NetworkBase/Assets/*.png']
