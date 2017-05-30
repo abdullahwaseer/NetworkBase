@@ -14,7 +14,7 @@ enum RequestType : Int {
     case POST
 }
 
-class RequestBase {
+public class RequestBase {
     
     /// host server base url
     ///

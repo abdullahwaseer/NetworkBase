@@ -13,7 +13,7 @@ enum ResponseType : Int {
     case Failure
 }
 
-class Response {
+public class Response {
     
     private(set) var status : ResponseType = .Failure
     var data : AnyObject?

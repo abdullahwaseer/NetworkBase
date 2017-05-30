@@ -1,15 +1,15 @@
 PODS:
   - Alamofire (4.0.1)
-  - NetworkBase (0.2.0):
+  - NetworkBase (0.3.0):
     - Alamofire (~> 4.0.1)
 
 DEPENDENCIES:
-  - NetworkBase (~> 0.2.0)
+  - NetworkBase (~> 0.3.0)
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
-  NetworkBase: 134085447ab5bbac1c93ffe28e413338b5add72e
+  NetworkBase: 9d92b693733cc2d44092c414a9373fd8a7bbe1c5
 
-PODFILE CHECKSUM: 6fe941285ccd812539e2a07b914f41ea893306fb
+PODFILE CHECKSUM: 83794135c75dacbfa641240ef4d2e44ce26f6a6b
 
 COCOAPODS: 1.2.1
