@@ -7,13 +7,14 @@
 //
 
 import Foundation
+//import Alamofire
 
 enum RequestType : Int {
     case GET
     case POST
 }
 
-class RequestBase {
+public class RequestBase {
     
     /// host server base url
     ///

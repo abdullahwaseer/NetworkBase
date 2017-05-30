@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ParserBase {
+public class ParserBase {
     
     func parseData(data : [String : Any])->AnyObject? {
         return "" as AnyObject?
