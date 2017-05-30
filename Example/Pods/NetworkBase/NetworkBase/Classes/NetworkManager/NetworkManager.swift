@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 
-public class  NetworkManager {
+open class  NetworkManager {
     
     func executeRequest(request : RequestBase,
                         completionHandler:@escaping (_ apiResponse:Response)->Void) {
