@@ -1,9 +1,9 @@
 //
 //  Parser.swift
-//  Hasalty
+//  TcigPlatformMobile
 //
-//  Created by Usama on 1/29/17.
-//  Copyright © 2017 Tess. All rights reserved.
+//  Created by M Abdullah Waseer on 17/05/2017.
+//  Copyright © 2017 M Abdullah Waseer. All rights reserved.
 //
 
 import Foundation
@@ -14,7 +14,7 @@ open class ParserBase {
         
     }
     
-    func parseData(data : [String : Any])->AnyObject? {
+    public func parseData(data : [String : Any])->AnyObject? {
         return "" as AnyObject?
     }
 }

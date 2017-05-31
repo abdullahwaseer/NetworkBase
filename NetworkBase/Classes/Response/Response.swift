@@ -1,9 +1,9 @@
 //
 //  Response.swift
-//  Hasalty
+//  TcigPlatformMobile
 //
-//  Created by Usama on 1/29/17.
-//  Copyright © 2017 Tess. All rights reserved.
+//  Created by M Abdullah Waseer on 17/05/2017.
+//  Copyright © 2017 M Abdullah Waseer. All rights reserved.
 //
 
 import Foundation
@@ -15,10 +15,10 @@ public enum ResponseType : Int {
 
 open class Response {
     
-    private(set) var status : ResponseType = .Failure
+    public var status : ResponseType = .Failure //private(set)
     var data : AnyObject?
     
-    init(data : [String : Any]?,parser : ParserBase) {
+    public init(data : [String : Any]?,parser : ParserBase) {
         let status = data?["status"] as? Int
         
         if let s = status {

@@ -23,49 +23,49 @@ open class RequestBase {
     /// host server base url
     ///
     /// - Returns: string
-    func hostUrl()->String {
+    public func hostUrl()->String {
         return staggingServer()
     }
     
     /// authorization required
     ///
     /// - Returns: yes/no
-    func isAuthRequired()->Bool {
+    public func isAuthRequired()->Bool {
         return true;
     }
     
     /// web service url
     ///
     /// - Returns: url
-    func url()->String {
+    public func url()->String {
         return hostUrl() + endPoint()
     }
     
     /// end point
     ///
     /// - Returns: string
-    func endPoint()->String {
+    public func endPoint()->String {
         return ""
     }
     
     /// Returned parameters can be used as body or query parameters
     ///
     /// - Returns: dictionary
-    func parameters()->[String : AnyObject] {
+    public func parameters()->[String : AnyObject] {
         return [:]
     }
     
     /// Request type
     ///
     /// - Returns: request type
-    func requestType()->RequestType {
+    public func requestType()->RequestType {
         return .GET
     }
     
     /// Parser to parse respective request
     ///
     /// - Returns: Parser
-    func parser()->ParserBase {
+    public func parser()->ParserBase {
         return ParserBase()
     }
     
@@ -73,7 +73,7 @@ open class RequestBase {
     /// device token
     ///
     /// - Returns: string
-    func deviceToken()->String {
+    public func deviceToken()->String {
         return ""
     }
     
@@ -81,7 +81,7 @@ open class RequestBase {
     /// authorization header
     ///
     /// - Returns: dictionary
-    func authorizationHeader()->[String : String]? {
+    public func authorizationHeader()->[String : String]? {
         
         return nil
     }
@@ -89,11 +89,11 @@ open class RequestBase {
 
 //MARK:- Private
 extension RequestBase {
-    func staggingServer()->String {
+    public func staggingServer()->String {
         return ""
     }
     
-    func liveServer()->String {
+    public func liveServer()->String {
         return ""
     }
 }

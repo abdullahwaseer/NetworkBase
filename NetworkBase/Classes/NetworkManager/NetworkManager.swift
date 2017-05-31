@@ -15,7 +15,7 @@ open class  NetworkManager {
         
     }
     
-    func executeRequest(request : RequestBase,
+    public func executeRequest(request : RequestBase,
                         completionHandler:@escaping (_ apiResponse:Response)->Void) {
         
         var postType = HTTPMethod.get
