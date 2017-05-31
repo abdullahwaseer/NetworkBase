@@ -14,7 +14,7 @@ open class ParserBase {
         
     }
     
-    public func parseData(data : [String : Any])->AnyObject? {
+    func parseData(data : [String : Any])->AnyObject? {
         return "" as AnyObject?
     }
 }

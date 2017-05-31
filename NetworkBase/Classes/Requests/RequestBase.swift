@@ -23,49 +23,49 @@ open class RequestBase {
     /// host server base url
     ///
     /// - Returns: string
-    public func hostUrl()->String {
+    func hostUrl()->String {
         return staggingServer()
     }
     
     /// authorization required
     ///
     /// - Returns: yes/no
-    public func isAuthRequired()->Bool {
+    func isAuthRequired()->Bool {
         return true;
     }
     
     /// web service url
     ///
     /// - Returns: url
-    public func url()->String {
+    func url()->String {
         return hostUrl() + endPoint()
     }
     
     /// end point
     ///
     /// - Returns: string
-    public func endPoint()->String {
+    func endPoint()->String {
         return ""
     }
     
     /// Returned parameters can be used as body or query parameters
     ///
     /// - Returns: dictionary
-    public func parameters()->[String : AnyObject] {
+    func parameters()->[String : AnyObject] {
         return [:]
     }
     
     /// Request type
     ///
     /// - Returns: request type
-    public func requestType()->RequestType {
+    func requestType()->RequestType {
         return .GET
     }
     
     /// Parser to parse respective request
     ///
     /// - Returns: Parser
-    public func parser()->ParserBase {
+    func parser()->ParserBase {
         return ParserBase()
     }
     
@@ -73,7 +73,7 @@ open class RequestBase {
     /// device token
     ///
     /// - Returns: string
-    public func deviceToken()->String {
+    func deviceToken()->String {
         return ""
     }
     
@@ -81,7 +81,7 @@ open class RequestBase {
     /// authorization header
     ///
     /// - Returns: dictionary
-    public func authorizationHeader()->[String : String]? {
+    func authorizationHeader()->[String : String]? {
         
         return nil
     }
@@ -89,11 +89,11 @@ open class RequestBase {
 
 //MARK:- Private
 extension RequestBase {
-    public func staggingServer()->String {
+    func staggingServer()->String {
         return ""
     }
     
-    public func liveServer()->String {
+    func liveServer()->String {
         return ""
     }
 }

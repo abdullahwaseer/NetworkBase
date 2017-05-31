@@ -16,7 +16,7 @@ public enum ResponseType : Int {
 open class Response {
     
     public var status : ResponseType = .Failure //private(set)
-    var data : AnyObject?
+    public var data : AnyObject?
     
     public init(data : [String : Any]?,parser : ParserBase) {
         let status = data?["status"] as? Int
